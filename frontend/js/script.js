@@ -83,7 +83,7 @@ const handleLogin = (event) => {
     login.style.display = "none"
     chat.style.display = "flex"
 
-    websocket = new WebSocket("wss:https://chatmoment-9zky.onrender.com")
+    websocket = new WebSocket("wss://vercel.com/kikitty6s-projects/chatmoment/DVp2fkSzCiqRiSTRq5HHvJAKdWM8")
     websocket.onmessage = processMessage
 }
 
